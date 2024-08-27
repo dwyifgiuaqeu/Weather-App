@@ -71,8 +71,8 @@ body {
     outline: 0;
     background: #35282d;
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+   width: 6vh;
+    height: 7vh;
   
     cursor: pointer;
 }
@@ -111,6 +111,9 @@ body {
     justify-content: space-between;
     padding: 0 2vb;
     margin-top: 5vh;
+    margin-right: -5vb;
+    margin-left: -5vb;
+    
 
 }
 
