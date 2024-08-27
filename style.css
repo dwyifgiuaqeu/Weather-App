@@ -6,8 +6,10 @@
 }
 
 body {
-    height: 650px;
+    height: 740px;
+ 
     background: linear-gradient(200deg,rgba(0, 225, 255, 0.619), rgb(0, 110, 255));
+    
 }
 
 .AppCard{
@@ -120,12 +122,27 @@ body {
 /* Media Query for Mobile Devices */
 @media only screen and (max-width: 600px) {
     body {
-        height: auto;
+        height: max-content;
+        background: none;
     }
     .AppCard{
-        margin: 20px auto;
-        padding: 20px 20px;
+      
+        width: 90%;
+        max-width: 65vb;
+        background: linear-gradient(200deg, #fe9000, #8a5469);
+         
+        color: #fefffe;
+        margin: 80px auto 0;
+        border-radius: 15px;
+        padding: 40px 40px;
+        text-align: center;
+        border: 1px solid white;
     }
+    .AppCard .title h1{
+        margin-top: 10px;
+    }
+
+
     .searchArea input{
         padding: 2vh 2vw;
         height: 50px;
@@ -160,6 +177,7 @@ body {
         font-size: medium;
     }
 }
+
 
 
 
